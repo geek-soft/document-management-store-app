@@ -20,6 +20,7 @@ log_level_dm = "INFO"
 show_sql = "false"
 endpoints_health_sensitive = "true"
 endpoints_info_sensitive = "true"
+use_shared_appinsight = "true"
 
 ////////////////////////////////////////////////
 // Toggle Features

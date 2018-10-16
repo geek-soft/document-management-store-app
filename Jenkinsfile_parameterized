@@ -45,6 +45,7 @@ withParameterizedPipeline(type, product, component, params.ENVIRONMENT, 'sandbox
     enableSlackNotifications('#ccd-param-builds')
     enableDbMigration()
     loadVaultSecrets(secrets)
+    setVaultName('ccd')
 
     after('checkout') {
         echo '${product}-${component} out'
